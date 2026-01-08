@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    height: 83px;
+    background-color: white;
+    border-bottom: 1px solid rgb(231, 234, 237);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content-conteiner{
+    max-width: 1022px;
+    width: 100%;
+    height: 82px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-nave{
+    width: 140px;
+    height: 37px;
+    margin:0 20px 0 0;
+}
+
+
+.nav-contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-item{
+    height: 41px;
+    padding: 6px 24px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    margin: 0 4px;
+}
+
+.nav-item:hover{
+    background-color: #e4d7ff;
+    color: #360c72;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.bnt {
+    cursor: pointer;
+    border: 1px solid #652bdf;
+    border-radius: 50px;
+}
+
+
+.bnt:hover {
+    color: #360c72;
+    border: 1px solid #360c72;
+}
+
+/* Estilo exclusivo para el botón 1 (el de la izquierda) */
+.bnt-1 {
+    color: #652bdf;
+}
+
+/* Estilo exclusivo para el botón 2 (el de la derecha) */
+.bnt-2 {
+    color: white;
+    background-color: #652bdf;
+    border-radius: 50px;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 0 31px;
+}
+
+.divider-line{
+    width: 1px;
+    height: 24px;
+    background-color:#e7eaed;
+}
