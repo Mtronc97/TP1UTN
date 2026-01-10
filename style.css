@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-    font-size: 14px;
 }
 
 ol, ul{
@@ -19,11 +18,12 @@ a{
 
 .header{
     height: 83px;
-    background-color: white;
+    background-color: #fff;
     border-bottom: 1px solid rgb(231, 234, 237);
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 14px;
 }
 
 .content-conteiner{
@@ -43,6 +43,9 @@ a{
     margin:0 20px 0 0;
 }
 
+.logo-nave:hover{
+    cursor: pointer;
+}
 
 .nav-contenedor {
     display: flex;
@@ -66,25 +69,23 @@ a{
     cursor: pointer;
 }
 
-.bnt {
+.btn {
     cursor: pointer;
     border: 1px solid #652bdf;
     border-radius: 50px;
 }
 
 
-.bnt:hover {
+.btn:hover {
     color: #360c72;
     border: 1px solid #360c72;
 }
 
-/* Estilo exclusivo para el botón 1 (el de la izquierda) */
-.bnt-1 {
+.btn-1 {
     color: #652bdf;
 }
 
-/* Estilo exclusivo para el botón 2 (el de la derecha) */
-.bnt-2 {
+.btn-2 {
     color: white;
     background-color: #652bdf;
     border-radius: 50px;
@@ -108,4 +109,51 @@ a{
     width: 1px;
     height: 24px;
     background-color:#e7eaed;
+}
+
+
+body{
+    background-color:  rgb(252, 251, 255);
+}
+.div-conteiner{
+    max-width: 1022px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    width: 1022px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+h2{
+    font-size: 40px;
+    margin: 8px 0;
+}
+
+.cards-container{
+    width: 1022px;
+    height: 314px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-item{
+    width: 316.81px;
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    
 }
